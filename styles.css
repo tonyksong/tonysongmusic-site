@@ -491,6 +491,36 @@ a:hover {
   font-weight: 500;
 }
 
+/* --- Gigs Section --- */
+.gigs-section {
+  background: var(--bg-primary);
+}
+
+.gigs-widget-wrapper {
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.gigs-widget-wrapper .bit-widget .bit-events .bit-event {
+  border-color: rgba(201, 169, 110, 0.15) !important;
+}
+
+.gigs-fallback {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.gigs-fallback a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.gigs-fallback a:hover {
+  color: var(--accent-light);
+}
+
 /* --- Media Section --- */
 .media-section {
   background: var(--bg-secondary);
